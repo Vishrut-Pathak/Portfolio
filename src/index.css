@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-display: "Space Grotesk", "font2", sans-serif;
+
+  --color-canvas: #15004b;
+  --color-canvas-light: #220269;
+  --color-electric: #2f5bd8;
+  --color-cyan-glow: #6ee7f7;
+  --color-lavender: #c4b5fd;
+}
+
+@font-face {
+    font-family: font1;
+    src: url(/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(/Lausanne-500.woff2);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #15004b;
+  color: #e7deff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #15004b;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6ee7f7;
+}
