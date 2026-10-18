@@ -18,7 +18,7 @@ export const personalInfo = {
     part3: "THAT FEEL ALIVE",
   },
   bio: "Third-year B.Tech CSE student at Dr. B.C. Roy Engineering College, Durgapur, graduating in 2028. I build responsive, component-driven React interfaces and have shipped a real company website with a team. I'm now going full-stack with the MERN stack. Open to frontend internships and SDE-1 roles.",
-  statusBadge: "OPEN TO ROLES",
+  statusBadge: "OPEN TO WORK",
   focusBadge: "REACT & MERN",
 };
 
